@@ -117,3 +117,19 @@ canvas{
     font-weight: 600;
 }
 
+#new-game-button{
+    font-size: 1.25em;
+    padding: 0.5em 1em;
+    background-color: #712f79;
+    border: 3px solid rgb(151, 99, 145);
+    color: #ffffff;
+    border-radius: 0.2em;
+    cursor: pointer;
+}
+
+.win-msg {
+    color: #39d78d;
+}
+.lose-msg{
+    color: #ff0000;
+}
