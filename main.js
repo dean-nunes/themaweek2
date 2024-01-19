@@ -143,7 +143,7 @@ for (let i = 65; i < 91; i++) {
     letterContainer.append(button);
   }
 
-  displayOptions();
+  displayOption();
   //Call to canvasCreator (for clearing previous canvas and creating initial canvas)
   let { initialDrawing } = canvasCreator();
   //initialDrawing would draw the frame
